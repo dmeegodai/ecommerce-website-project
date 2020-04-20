@@ -1,0 +1,17 @@
+/* General Styles */
+
+body{
+    font-size: 14px;
+    line-height: normal;
+    color: #333333;
+    background: #f0f0f0;
+    overflow: hidden;
+}
+
+/* Top Menu Style */ 
+
+#top{
+    background: #DB7093;
+    padding:10px 0;
+    
+}
