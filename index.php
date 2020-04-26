@@ -36,6 +36,24 @@
         </div><!--Container Ending -->
     </div><!-- Top Ending -->
 
+    <div id="navbar" class="navbar navbar-default"><!--navbar navbar-default Begining-->
+        <div class="container"><!--container Begining-->
+
+            <div class="navbar-header"><!--navbar-header Begining-->
+
+               <a href="index.php" class="navbar-brand home"><!--navbar-brand home Begining-->
+
+                   <img src=".//images/ecom-nick-web.png" alt="Nikki's-craft-store-logo-web" class="hidden-xs">
+                   <img src=".//images/ecom-mick-mob.png" alt="Nikki's-craft-store-logo-mobile" class="visible-xs" >
+
+               </a><!--navbar-brand home Ending--->
+
+            </div><!--navbar-header Ending-->
+
+        </div><!--containert Ending-->
+
+    </div><!--navbar navbar-default Ending-->
+
     <script src="js/jquery-331.min.js"> </script>
     <script src="js/bootstrap-337.min.js"></script>
 
