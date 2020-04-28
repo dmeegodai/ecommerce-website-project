@@ -48,9 +48,50 @@
 
                </a><!--navbar-brand home Ending--->
 
+               <button class="navbar-toggle" data-toggle="collaps" data-target="navigation">
+
+                   <span class="sr-only">Toggle Navigation</span>
+
+                   <i class="fa fa-align-justify"></i>
+
+               </button>
+
+                 <button class="navbar-toggle" data-toggle="collaps" data-target="navigation">
+
+                   <span class="sr-only">Toggle search</span>
+
+                   <i class="fa fa-search"></i>
+
+               </button>
+
             </div><!--navbar-header Ending-->
 
-        </div><!--containert Ending-->
+            <div class="navbar-collapse collapse" id="navigation"><!--navbar-collapse collapse Begining-->
+
+               <div class="padding-nav"><!--padding-nav Begining-->
+                   <ul class="nav navbar-nav left"><!--nav navbar-nav left Begining-->
+                    <li class="active">
+                       <a href="index.php">Home</a>
+                   </li>
+                   <li>
+                       <a href="shop.php">Shop</a>
+                   </li>
+                   <li>
+                       <a href="checkout.php">My account</a>
+                   </li>
+                   <li>
+                       <a href="cart.php">Shopping cart</a>
+                   </li>
+                   <li>
+                       <a href="contact.php">Contact Us</a>
+                   </li>
+                  </ul><!--nav navbar-nav left Ending-->
+
+               </div><!--padding-nav Ending-->
+
+            </div><!--navbar-collapse collapse Ending-->
+
+        </div><!--container Ending-->
 
     </div><!--navbar navbar-default Ending-->
 
