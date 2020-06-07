@@ -62,55 +62,9 @@
                 </a>
                 <!--navbar-brand home Ending--->
 
-
                 <button class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
 
-
-               <button class="navbar-toggle" data-toggle="collaps" data-target="navigation">
-
-                   <span class="sr-only">Toggle Navigation</span>
-
-                   <i class="fa fa-align-justify"></i>
-
-               </button>
-
-                 <button class="navbar-toggle" data-toggle="collaps" data-target="navigation">
-
-                   <span class="sr-only">Toggle search</span>
-
-                   <i class="fa fa-search"></i>
-
-               </button>
-
-            </div><!--navbar-header Ending-->
-
-            <div class="navbar-collapse collapse" id="navigation"><!--navbar-collapse collapse Begining-->
-
-               <div class="padding-nav"><!--padding-nav Begining-->
-                   <ul class="nav navbar-nav left"><!--nav navbar-nav left Begining-->
-                    <li class="active">
-                       <a href="index.php">Home</a>
-                   </li>
-                   <li>
-                       <a href="shop.php">Shop</a>
-                   </li>
-                   <li>
-                       <a href="checkout.php">My account</a>
-                   </li>
-                   <li>
-                       <a href="cart.php">Shopping cart</a>
-                   </li>
-                   <li>
-                       <a href="contact.php">Contact Us</a>
-                   </li>
-                  </ul><!--nav navbar-nav left Ending-->
-
-               </div><!--padding-nav Ending-->
-
-            </div><!--navbar-collapse collapse Ending-->
-
-        </div><!--container Ending-->
-
+                    <span class="sr-only">Toggle Navigation</span>
 
                     <i class="fa fa-align-justify"></i>
 
@@ -225,6 +179,83 @@
 
     </div>
     <!--navbar navbar-default Ending-->
+
+    <div class="container" id="slider">
+        <!--container Begining-->
+
+        <div class="col-md-12">
+            <!--col-md-12 Begining-->
+
+            <div class="carousel slide" id="myCarousel" data-ride="carousel">
+                <!--carousel slide Begining-->
+
+                <ol class="carousel-indicators">
+                    <!--carousel-inidcators slide Begining-->
+
+                    <li class="active" data-target="#myCarousel" data-slide-to="0"> </li>
+                    <li data-target="#myCarousel" data-slide-to="1"> </li>
+                    <li data-target="#myCarousel" data-slide-to="2"> </li>
+                    <li data-target="#myCarousel" data-slide-to="3"> </li>
+
+                </ol>
+                <!--carousel-inidcators slide Ending-->
+
+                <div class="carousel-inner">
+                    <!--carousel-inner Begining-->
+
+                    <div class="item active">
+
+                        <img src="admin_area/slides_images/Slide1.jpg" alt="Slider Image 1">
+
+                    </div>
+
+                    <div class="item">
+
+                        <img src="admin_area/slides_images/Slide2.jpg" alt="Slider Image 2">
+
+                    </div>
+
+                    <div class="item">
+
+                        <img src="admin_area/slides_images/Slide3.jpg" alt="Slider Image 3">
+
+                    </div>
+
+                    <div class="item">
+
+                        <img src="admin_area/slides_images/Slide4.jpg" alt="Slider Image 4">
+
+                    </div>
+
+                </div>
+                <!--carousel-inner Ending-->
+
+                <a href="#myCarousel" class="left carousel-control" data-slide="prev">
+
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+
+
+                </a>
+
+                <a href="#myCarousel" class="right carousel-control" data-slide="next">
+
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+
+
+                </a>
+
+            </div>
+            <!--carousel slide Ending-->
+
+
+        </div>
+        <!--col-md-12 Ending-->
+
+
+    </div>
+    <!--container Ending-->
 
     <script src="js/jquery-331.min.js"> </script>
     <script src="js/bootstrap-337.min.js"></script>
