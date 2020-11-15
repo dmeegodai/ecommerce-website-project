@@ -12,7 +12,7 @@
                     <li><a href="cart.php">Shopping Cart</a></li>
                     <li><a href="shop.php">Shop</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
-                    <li><a href="checkout.php">My Account</a></li>
+                    <li><a href="my_account.php">My Account</a></li>
                 </ul>
                 <!--ul  Ending-->
 
@@ -21,7 +21,7 @@
                 <h4>User Section</h4>
                 <ul>
                     <!--ul  Begin-->
-                    <?php 
+                          <?php 
                             
                             if(!isset($_SESSION['customer_email'])){
                                 
@@ -34,24 +34,8 @@
                             }
                             
                             ?>
-                    <li>
-                              <?php 
-                            
-                            if(!isset($_SESSION['customer_email'])){
-                                
-                                echo"<a href='checkout.php'>Login</a>";
-        
-                            }else{
-                                
-                                 echo"<a href='my_account.php?edit_account'>Edit Account</a>";
-                                
-                            }
-                            
-                            ?>
-                        
-                        
-                        
-                    </li>
+                   
+                    <li><a href="customer_register.php">Register</a></li>
                 </ul>
                 <!--ul  Ending-->
 
